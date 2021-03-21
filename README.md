@@ -13,3 +13,5 @@ pip install pywin32==300
 ```
 
 ## Usage
+<img src="https://github.com/HarshitSeth-809014/NewsReporter-Python/blob/master/Screenshots/Screenshot%20(104)_LI.jpg">
+<img src="https://github.com/HarshitSeth-809014/NewsReporter-Python/blob/master/Screenshots/Screenshot%20(103)_LI.jpg">
