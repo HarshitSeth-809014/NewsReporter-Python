@@ -3,8 +3,7 @@ import requests
 import json
 import time
 
-apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # Enter your API Key given by newsapi.org
-apiKey = "6d7eecdcb584452aa3ae05b570ed98bb"
+apiKey = input("Enter the API Key: ")
 
 def speak(str):
     from win32com.client import Dispatch
