@@ -13,4 +13,3 @@ pip install pywin32==300
 ```
 
 ## Usage
-You run this on the opening time of your computer and should obey the commands.
