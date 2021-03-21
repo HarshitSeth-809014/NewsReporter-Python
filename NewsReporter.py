@@ -1,9 +1,7 @@
-# Akbhaar Padke Sunao
 import requests
 import json
 import time
 
-apiKey = input("Enter the API Key: ")
 
 def speak(str):
     from win32com.client import Dispatch
@@ -12,6 +10,10 @@ def speak(str):
 
 
 if __name__ == '__main__':
+    speak("Enter the API Key: ")
+    apiKey = input("Enter the API Key: ")
+
+    speak("About which topic you want the news of: ")
     qInTitle = input("About which topic you want the news of: ")
     speak(f"News for the topic {qInTitle} will be told by me soon.")
     qInTitle = qInTitle.replace(" ", "%20")
